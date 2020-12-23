@@ -1,5 +1,3 @@
-ethereum.autoRefreshOnNetworkChange = false;
-
 // set initial count
 let count = 0;
 

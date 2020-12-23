@@ -1,7 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*,
+::after,
+::before {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(233, 233, 255);
 }
@@ -10,16 +16,16 @@
   display: grid;
   justify-items: center;
   align-items: center;
-  margin-top: 140px;
+  margin-top: 200px;
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 4rem;
 }
 
 #value {
   margin-top: 25px;
-  font-size: 90px;
+  font-size: 5rem;
   font-weight: bold;
 }
 
@@ -27,12 +33,10 @@ button {
   text-transform: uppercase;
   margin: 5px;
   padding: 10px;
-  font-weight: bold;
   letter-spacing: 3px;
   outline: none;
   border-radius: 7px;
   margin-top: 25px;
-  /* box-shadow: 0 10px 10px rgba(250, 250, 250, 0.8); */
 }
 
 button:hover {
@@ -42,15 +46,15 @@ button:hover {
 
 .decrease:active {
   color: red;
-  background-color: rgb(255, 180, 180);
+  background-color: rgb(255, 181, 180);
 }
 
 .increase:active {
   color: green;
-  background-color: rgb(206, 255, 206);
+  background-color: rgb(206, 256, 206);
 }
 
 .reset:active {
   color: rgb(53, 53, 53);
-  background-color: rgb(218, 218, 218);
+  background-color: rgb(218, 215, 218);
 }
